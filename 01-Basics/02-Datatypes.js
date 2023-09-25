@@ -9,8 +9,8 @@
 
 // window.alert("hello")
 
-let name="Pushpendra";
-let age =24;
+let name="Pushpendra kumar";
+let age =23;
 let isLoggedIn =false;
 
 // number => 2 to powerr 53
