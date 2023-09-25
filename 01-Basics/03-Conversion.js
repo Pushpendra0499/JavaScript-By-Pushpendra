@@ -110,18 +110,3 @@ we must read pre increment and post oincrement
 // link to study  (1:29:13) ==> 
 https://tc39.es/ecma262/multipage/abstract-operations.html#sec-type-conversion
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
