@@ -32,29 +32,52 @@ Array ,objects,Functions
 // const anotherId =Symbol('123')
 
 // console.log(id===anotherId); //false
-const bigNumber =2423564646n;
-console.log(bigNumber)
-console.log(typeof bigNumber);
+// const bigNumber =2423564646n;
+// console.log(bigNumber)
+// console.log(typeof bigNumber);
 
 // ************ Ex. of Non Primitive ***********//
 //Array
-const heros =["shaltiman","naagraj","doga"];
-console.log( " Type of heros Array : " ,typeof heros);
-console.log(heros);
+// const heros =["shaltiman","naagraj","doga"];
+// console.log( " Type of heros Array : " ,typeof heros);
+// console.log(heros);
 
 // Object
-let myObj ={
-    name:"pushpendra",
-    age:22,
+// let myObj ={
+//     name:"pushpendra",
+//     age:22,
+// }
+// console.log( "Type of this Object :",typeof myObj);
+
+// // function
+// const myFunction =function(){
+//     console.log("Hello bro! How are you???");
+// }
+
+// console.log("Type of this function :",typeof myFunction);
+
+// https://262.ecma-international.org/5.1/#sec-11.4.
+
+// 1:58:00
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack (Primitive) ,Heap (Non-Primitive)
+
+let myYoutubename ="mukkurajj.com";
+let anothername =myYoutubename;
+
+anothername ="chai aur Code"
+console.log(anothername);
+
+let userOne={
+    email:"user@google.com",
+    upi:"user@ybl"
 }
-console.log( "Type of this Object :",typeof myObj);
 
-// function
-const myFunction =function(){
-    console.log("Hello bro! How are you???");
-}
+let userTwo = userOne ;
+userTwo.email ="mukkuraj111@gmail.com"
 
-console.log("Type of this function :",typeof myFunction);
+console.log(userOne.email);
+console.log(userTwo.email);
 
-// https://262.ecma-international.org/5.1/#sec-11.4.3
-
+// 2:06:00 Timming
