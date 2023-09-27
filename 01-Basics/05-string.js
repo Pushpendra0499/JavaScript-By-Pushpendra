@@ -6,8 +6,9 @@ console.log(name+ repoCount+" value");
 
 console.log(`my name is ${name}. my repoCount is ${repoCount}`);
 
-const gameName = new String("Pushpendra-pk");
+const gameName = new String("Pushpendra-pk is a good student in my class room");
 console.log(gameName); 
+
 // but when we run this code in console than we find tha string is shown in perticulaor words this is like Object
 
 // console.log(gameName[0]);
@@ -17,12 +18,64 @@ console.log(gameName);
 // console.log(gameName.toUpperCase());
 
 
-console.log(gameName.charAt(3))
-console.log(gameName.indexOf('P'))
-console.log(gameName.charAt(3))
+// console.log(gameName.charAt(3))
+// console.log(gameName.indexOf('P'))
+// console.log(gameName.charAt(3))
 
 const newString = gameName.substring(0,4) //word of 4th index will be excluded
-console.log(newString.slice())
+console.log(newString); // we can't give negative value in substring method
+
+const anotherString =gameName.slice(0,4); // in slice method we can give negative value
+console.log(anotherString); // ty good practice
+
+
+// const newString1 ="         Pushpendrs        ";
+// console.log(newString1);
+// console.log(newString1.trim());
+// console.log(newString1.trimStart())
+// console.log(newString1.trimEnd())
+
+/*                                             *********** Notes * ****************
+ 1. By trim method we can remove the space from the string
+ 2. without modify original string  
+ */
+
+ //                                            ++++++++++++++++ replace method+++++++++++++++
+ const url ="https://pushpendra.com/pushpendra%04kumar";
+ console.log(url.replace('%04kumar','99Rajput$'));
+
+ console.log(url.includes('pushpendra')); // check presentation of string
+
+ // convert string into array
+ console.log(gameName.split('-')); // 
+//  console.log(words[4]);
+//  console.log(chars[4]);
+
+
+const str = 'My name is pushpendra kuamr I am a good student in my classroom';
+
+const words = str.split(' ');
+console.log(words[3]);
+// Expected output: "pushpendra"
+
+const chars = str.split('');
+console.log(chars[8]);
+// Expected output: "i"
+
+const strCopy = str.split();
+console.log(strCopy);
+// Expected output: Array ["My name is pushpendra kuamr I am a good student in my classroom"]
+// Timming 2:29:00
+
+
+
+
+
+
+
+
+
+
 // timming 2:19:00
 
 
