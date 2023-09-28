@@ -3,6 +3,7 @@ let accountEmail="mukkuverma.com"
 var accountPassword ="12345"
 // accountCity ="Jaipur"    // do not declare like as without variables
 
+
 // let accountState;  //// show in result is Undefined
 let accountState="";
 
@@ -30,4 +31,3 @@ accountCity ="Bangaluru"
 
 console.table([accountId,accountEmail,accountPassword,
     accountCity,accountId,accountState])
-
