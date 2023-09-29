@@ -61,10 +61,48 @@ function loginUserrMessage(username){ // <== loginUserrMessage(username ="sam")
 
 // loginUserrMessage("pushpendra")// this value will not print in the output
 
-console.log(loginUserrMessage("pushpendra")); //  pushpendra just loggeg in   string print in the output
-console.log(loginUserrMessage("")); // just loggeg in
-console.log(loginUserrMessage());  //undefined just loggeg in
+// console.log(loginUserrMessage("pushpendra")); //  pushpendra just loggeg in   string print in the output
+// console.log(loginUserrMessage("")); // just loggeg in
+// console.log(loginUserrMessage());  //undefined just loggeg in
 
+
+//   ... this is also known as spread operator and rest operator this is depend upon use of case
+
+
+function calculateCarPrice(val1, val2, ...num1){
+return num1
+}
+
+console.log(calculateCarPrice(220,400,500,1000)); // [ 220, 400, 500 ,1000 ]
+
+const user ={
+    username:"pushpenra",
+    price:199
+}
+
+function handleObject(anyobject){
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+// but pproblem is comming if we use of prices in place oof price
+}
+
+// handleObject(user) //Username is pushpenra and price is 199
+
+// good method
+
+handleObject({
+    username:"Pushpa",
+    price:399
+}) // output  ==>  Username is Pushpa and price is 399
+
+const myNewArray=[200,400,100,600]
+
+function returnSecondValue(getArray){
+    return getArray[3]
+}
+
+
+// console.log(returnSecondValue(myNewArray)); //600
+console.log(returnSecondValue([200,400,500,1000])); // result will we get 1000
 
 
 
