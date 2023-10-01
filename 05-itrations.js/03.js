@@ -37,8 +37,17 @@ map.set('Fr',"French")
 // }
 
 for (const [key,value] of map) {
-    console.log(key,':-',value); // here output is only keys
+   // console.log(key,':-',value); // here output is only keys
+}
+
+// Timing 8:01:00
+
+const myObject ={
+    game1 :'NFS',
+     game2 : 'Spiderman'
 }
 
 
-// Timing 8:01:00
+// for (const [key,value] of myObject) {
+//     console.log(key, ':-',value);
+// }
