@@ -9,7 +9,7 @@
 
 
 
-/*  Break statent skip the iteration */
+/*  Break statent stop the iteration */
 // const month =4 
 // switch (month) {
 //     case 1:
