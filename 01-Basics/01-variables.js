@@ -1,8 +1,8 @@
+// Timming 32:40:00
 const accountId =144553
 let accountEmail="mukkuverma.com"
 var accountPassword ="12345"
 // accountCity ="Jaipur"    // do not declare like as without variables
-
 
 // let accountState;  //// show in result is Undefined
 let accountState="";
@@ -10,8 +10,6 @@ let accountState="";
 /*  1. To declare variables we can use let and var use for variables.
   2.To declare constant we can use const
 */
-
-
 
 /*
 1. Prefer not to use var 
