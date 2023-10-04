@@ -76,5 +76,30 @@ const books = [
     { title: 'Book Nine', genre: 'Non-Fiction', publish: 1981, edition: 1989 },
   ];
 
+// let userBooks = books.filter( (bk) => bk.genre === 'History')
+// console.log(userBooks)
+
+//  let userBooks =books.filter( (bk) => {bk.publish >=2000})
+//   console.log(userBooks); // [] because we open block scope
+
+//  let userBooks =books.filter( (bk) => {
+//   return bk.publish >=2000
+// })
+//   console.log(userBooks); // print books five and eight
+
+//  let userBooks =books.filter( (bk) => {
+//   return bk.publish >=1995 && bk.genre === "History"
+// })
+//   console.log(userBooks); // print book three 
+
+
+ let userBooks =books.filter( (bk) => {
+  return bk.publish >=1995 && bk.genre === "Science"
+})
+  console.log(userBooks); // print books five and Eight
+
+
+
+
 
   
